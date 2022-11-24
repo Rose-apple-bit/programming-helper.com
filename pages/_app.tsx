@@ -9,7 +9,7 @@ import Head from "next/head"
 const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
-      <Script
+      {/* <Script
         id="Adsense-id"
         data-ad-client="ca-pub-8251732556629149"
         async
@@ -18,7 +18,7 @@ const App = ({ Component, pageProps }: AppProps) => {
           console.error("Script failed to load", e)
         }}
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      />
+      /> */}
 
       {/* adcash
     <Head>
@@ -47,11 +47,11 @@ const App = ({ Component, pageProps }: AppProps) => {
       />
         */}
 
-      <Script
+      {/* <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-WMLR3PFFXE"
         strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
+      /> */}
+      {/* <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
@@ -59,10 +59,10 @@ const App = ({ Component, pageProps }: AppProps) => {
 
           gtag('config', 'G-WMLR3PFFXE');
         `}
-      </Script>
+      </Script> */}
 
       <Head>
-        <link rel="shortcut icon" href="/images/favicon.ico" />
+        {/* <link rel="shortcut icon" href="/images/favicon.ico" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -79,7 +79,7 @@ const App = ({ Component, pageProps }: AppProps) => {
           type="image/png"
           sizes="16x16"
           href="/images/favicon-16x16.png"
-        />
+        /> */}
       </Head>
 
       <SessionProvider session={pageProps.session} refetchInterval={0}>

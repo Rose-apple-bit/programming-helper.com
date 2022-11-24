@@ -23,7 +23,7 @@ import RecentSingle from "../components/recentSingle"
 import AdSense from "react-adsense"
 
 const navigation = [
-  { name: "Features", href: "#features" },
+  { name: "Float", href: "#features" },
   { name: "AI Chat", href: "/chat" },
   {
     name: "Community Discord",
